@@ -1,0 +1,16 @@
+/**
+ * Created by Ivaylo on 06-Nov-16.
+ */
+var valueDouble = 8.75;
+var valueInt = valueDouble | 0; // 8
+console.log("valueDouble = " + valueDouble);
+console.log("valueInt = " + valueInt);
+valueDouble = 8.75;
+var roundedInt = (valueDouble + 0.5) | 0; // 9
+console.log("valueDouble = " + valueDouble);
+console.log("roundedInt = " + roundedInt);
+
+var str = "1234";
+var i = str | 0 + 1; // 1235
+console.log("str = " + str);
+console.log("i = " + i);
